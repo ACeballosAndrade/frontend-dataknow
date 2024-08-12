@@ -1,8 +1,11 @@
-# React + Vite
+# Front end 
+Este proyecto está realizado con vite y React usando Tailwind como framework de CSS
+para instalarlo solo se debe clonar el repositorio y dentro de la carpeta ejecutar el comando "npm run dev"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nota: Antes es necesario que ya se haya hecho este procedimiento con el Backend. Es decir, haber clonado el repositorio y ejecutar el comando.
+Ruta del backend: https://github.com/ACeballosAndrade/backend-dataknow
 
-Currently, two official plugins are available:
+Recuerda que en la carpeta db se encuentra el archivo para importar la base de datos.
+Ruta de db: https://github.com/ACeballosAndrade/backend-dataknow/blob/master/db/dataknow.sql
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gracias.
