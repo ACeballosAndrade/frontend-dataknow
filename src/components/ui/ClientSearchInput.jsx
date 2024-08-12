@@ -9,7 +9,7 @@ const ClientSearchInput = forwardRef(({register, name}, ref) => {
     // Fect a la base de datos
      const response = await fetch(`http://localhost:3000/clients?id=${searchQuery}`);
      const data = await response.json();
-    
+    console.log(data)
     setResults(data);
   };
 
@@ -76,7 +76,7 @@ const ClientSearchInput = forwardRef(({register, name}, ref) => {
           {results.map((client) => (
             <li
               key={client.id}
-              className="px-3 py-2 hover:bg-gray-100 cursor-pointer"
+              className="px-3 py-2 hover:bg-gray-100 cursor-pointer text-black"
               onClick={() => {
                 setQuery(client.name);
                 setResults([]);

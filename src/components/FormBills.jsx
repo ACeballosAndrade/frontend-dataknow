@@ -102,7 +102,7 @@ const FormBills = () => {
       </div>
       <div className="flex justify-between my-8">
         <span className="font-bold">Valor total de la factura: ${total}</span>
-        <Button name={"Guardar Cliente"} />
+        <Button name={"Guardar Factura"} />
       </div>
     </form>
   );
